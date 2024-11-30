@@ -1,0 +1,46 @@
+programa 
+{
+	funcao inicio()
+	{
+
+	real num1, num2, resultado, caractere
+	cadeia operacao
+		
+		escreva("Digite o primeiro número: ")
+	leia(num1)
+		escreva("Digite o segundo número: ")
+	leia(num2)
+
+		escreva("Digite a operação ( + = A , - = S , × = M , ÷ = D): ")
+	leia(operacao)
+	
+		se (operacao == "A") 
+			{
+			resultado = num1 + num2
+			escreva("O resultado de ", num1, " + ", num2, " é ", resultado)
+			}
+		senao se (operacao == "S") 
+			{
+			resultado = num1 - num2
+			escreva("O resultado de ", num1, " - ", num2, " é ", resultado)
+			}
+		senao se (operacao == "M") 
+			{
+			resultado = num1 * num2
+			escreva("O resultado de ", num1, " × ", num2, " é ", resultado)
+			}
+		senao se ((operacao == "D") e (num2 != 0.0))
+			{
+				resultado = num1 / num2
+				escreva("O resultado de ", num1, " ÷ ", num2, " é ", resultado)
+			}
+		senao 
+			{
+				escreva("Erro: Divisão por zero não é permitida.")
+			}
+	}
+		
+	}
+}
+	}
+}
