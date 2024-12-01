@@ -1,0 +1,13 @@
+programa 
+{
+	funcao inicio()
+	{
+
+	para(inteiro cot = 10 ; cot > 0 ; cot--)
+	{
+		escreva(cot)
+	}
+		escreva("\nFIM")
+
+	}
+}
